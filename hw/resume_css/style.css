@@ -1,0 +1,44 @@
+a {
+  color:orange;
+text-decoration:none;
+}
+a:hover {
+  color:lime;
+  font-size:30px;
+  font-weight:bolder;
+  }
+.customlist {
+  color: purple;
+}
+#maintitle {
+  font-family: 'Iceland', cursive;
+}
+#aboutme {
+  font-family: 'Iceland', cursive;
+}
+#workexperience {
+  font-family: 'Iceland', cursive;
+}
+#activitieshobbies {
+  font-family: 'Iceland', cursive;
+}
+#references {
+  font-family: 'Iceland', cursive;
+}
+.boldfnln {
+  color: royalblue;
+  font-variant-caps: small-caps;
+  }
+.airey {
+  color: silver;
+}
+.slater {
+  color: gold;
+}
+.von {
+  color: brown;
+}
+#timmanax {
+  font-family: 'Timmana', sans-serif;
+  font-size: 14px;
+  }
