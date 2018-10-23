@@ -16,3 +16,6 @@ ul li a {
   border: 1px solid red;
   margin-bottom: 20px;
 }
+.cursivefont {
+  font-family: 'Patrick Hand', cursive;
+}
