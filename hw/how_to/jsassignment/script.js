@@ -1,5 +1,5 @@
 // Variable to track the number of steps
-var totalsteps = 3;
+var totalsteps = 5;
 
 //Track which step should be displayed
 var currentstep = 0;
@@ -64,4 +64,21 @@ $('#finish').on('click', function(){
   //hide everything again
   $('.steps li, .controls, #prev').hide();
   $('.end').fadeIn(1000);
-})
+  $('h1').html('Time to play!')
+});
+
+$('.stepimg').on('click', function (){
+  $(this).css('width', '100%');
+});
+
+$('h1').on('mouseover', function (){
+  $(this).css('color', 'blue');
+});
+
+$('h1').on('mouseleave', function (){
+  $(this).css('color', 'red');
+});
+
+$('.stepimg').on('click', function (){
+  location.reload();
+});
