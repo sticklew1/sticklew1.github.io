@@ -64,7 +64,7 @@ $('#finish').on('click', function(){
   //hide everything again
   $('.steps li, .controls, #prev').hide();
   $('.end').fadeIn(1000);
-  $('.end').toggle(1000);
+  $('h1').toggle(7000);
   $('h1').html('Time to play!')
 });
 
