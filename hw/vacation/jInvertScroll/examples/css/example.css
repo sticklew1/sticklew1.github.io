@@ -3,7 +3,7 @@ body
 {
   padding: 0;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Tinos', serif;
 }
 
 /* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
