@@ -26,7 +26,7 @@
 *   THE SOFTWARE.
 **/
 (function($) {
-    $.jInvertScroll = function(sel, options) {
+    $.jInvertScroll(['trip', 'overview']) = function(sel, options) {
         var defaults = {
             width: 'auto',		    // The horizontal container width
             height: 'auto',		    // How far the user can scroll down (shorter distance = faster scrolling)
@@ -93,7 +93,7 @@
                 var pos = Math.floor((el.width - winWidth) * percent) * -1;
                 el.el.css('left', pos);
             });
-            $.jInvertScroll(['trip', 'overview']);
+
         });
     };
 }(jQuery));
