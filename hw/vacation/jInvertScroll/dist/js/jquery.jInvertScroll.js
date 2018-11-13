@@ -26,7 +26,7 @@
 *   THE SOFTWARE.
 **/
 (function($) {
-  $.jInvertScroll(['.trip', '.overview'], {
+  $.jInvertScroll(['.trip', '.overview', '.lighthouses', '.firstflight'], {
   	width: 'auto',	// Page width (auto or int value)
   	height: 'auto',	// Page height (the shorter, the faster the scroll)
   	onScroll: function(percent) {

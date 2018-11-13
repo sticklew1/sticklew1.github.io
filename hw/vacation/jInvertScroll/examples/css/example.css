@@ -53,9 +53,27 @@ h1
   width: 6000px;
 }
 
-.positionx
+.trip
 {
   position: fixed;
 bottom: 0;
-width: 1000px;
+width: 400px;
 }
+.overview
+  {
+    position: fixed;
+  bottom: 0;
+  width: 400px;
+  }
+  .lighthouse
+    {
+      position: fixed;
+    bottom: 0;
+    width: 400px;
+    }
+  .firstflight
+    {
+      position: fixed;
+    bottom: 0;
+    width: 400px;
+    }
