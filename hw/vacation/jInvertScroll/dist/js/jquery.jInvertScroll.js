@@ -93,7 +93,7 @@
                 var pos = Math.floor((el.width - winWidth) * percent) * -1;
                 el.el.css('left', pos);
             });
-            $.jInvertScroll(['trip', 'overview'...]);
+            $.jInvertScroll(['trip', 'overview']);
         });
     };
 }(jQuery));
