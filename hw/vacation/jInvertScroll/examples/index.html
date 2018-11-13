@@ -7,20 +7,20 @@
 		<link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
 </head>
 <body>
-	<div class="trip">
+	<div class="positionx trip">
 		<h1>Take a trip to the Outer Banks!</h1>
 
 		<p>The Outer Banks is a 200 mile long stretch of barrier islands that make up the majority of the North Carolina coastline. During the summer season, which takes place from Memorial Day in May to Labor Day in September, the region is a popular tourist destination, with thousands of visitors flocking to the OBX, as the Outer Banks is coined, for its expansive beaches and parks. Additionally, visitors frequent for the several historic lighthouses and shipwrecks that dominate the coastline. Continue to read on for more information about the Outer Banks!</p>
 		<img src="images/whereis.png" alt="Map" width="300">
 	</div>
 
-	<div class="overview">
+	<div class="positionx overview">
 		<h1>Overview of the Outer Banks</h1>
 		<iframe width="400" height="315" src="https://www.youtube.com/embed/Ozxp6d-j380" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<p>This video gives an overview of the Outer Banks and its points of interest, which include beaches, parks, lighthouses, and the Wright Brothers National Memorial.</p>
 	</div>
 
-<div class="lighthouses">
+<div class="positionx lighthouses">
 	<h1>Lighthouses</h1>
 	<img src="images/lighthouse.jpg" alt="lighthouse" width="400">
 	<p>Up and down the Outer Banks, there are a multitude of lighthouses, which were once used to serve as a navigational aid to ships at sea. One lighthouse, Ocracoke, is the US's second oldest lighthouse and still in operation, and Cape Hatteras Lighthouse is the tallest lighthouse in the US. Here is a list of lighthouses from north to south, and clicking on the names will link to visitor information.</p>
@@ -43,14 +43,14 @@
 	</ul>
 	</div>
 
-	<div class="firstflight">
+	<div class="positionx firstflight">
 		<h1>Wright Brothers National Memorial</h1>
 <img src="images/orville.jpg" alt="Firstflight" width="400">
 <img src="images/wrightmemorial.jpeg" alt="memorial">
 <p>The Wright Brothers National Memorial is a museum and memorial located in Kill Devil Hills. It commemorates the first successful airplane flight by the Wright brothers in 1903. The memorial is a successful tourist destination, with over 400,000 visitors each year.</p>
 
 	</div>
-	<div class="beaches">
+	<div class="positionx beaches">
 <h1>The beaches</h1>
 <img src="images/sunset.jpg" alt="sunset">
 <p>Perhaps the most popular attraction the Outer Banks offers is its beaches. They span the entire coastline, bordered by dunes towards land and the Atlantic Ocean. All of the beaches are public and free of businesses and boardwalks. There are a great amount of rental houses and hotels that have been built near the beach in recent years, making both getting to the beach and being able to spend it with family a breeze.</p>
@@ -59,7 +59,7 @@
     <script type="text/javascript" src="../dist/js/jquery.jInvertScroll.js"></script>
     <script type="text/javascript">
     (function($) {
-        $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+        $.jInvertScroll(['.trip', '.overview', '.lighthouses', '.firstflight', '.beaches'],        // an array containing the selector(s) for the elements you want to animate
             {
             height: 6000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
             onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
