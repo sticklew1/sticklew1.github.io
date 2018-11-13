@@ -52,3 +52,10 @@ h1
   z-index: 1000;
   width: 6000px;
 }
+
+.positionx
+{
+  position: fixed;
+bottom: 0;
+width: 1000px
+}
