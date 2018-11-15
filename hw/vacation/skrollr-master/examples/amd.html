@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>Outer Banks Vacation</title>
+
+	<link href="fixed-positioning.css" rel="stylesheet" type="text/css" />
+	<link href="main.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
+</head>
+
+<body>
+	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
+	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
+	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
+
+	<div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div>
+
+	<div id="intro" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-90deg);">
+		<h2>Take a trip to the Outer Banks!</h2>
+		<p>The Outer Banks is a 200 mile long stretch of barrier islands that make up the majority of the North Carolina coastline. During the summer season, which takes place from Memorial Day in May to Labor Day in September, the region is a popular tourist destination, with thousands of visitors flocking to the OBX, as the Outer Banks is coined, for its expansive beaches and parks. Additionally, visitors frequent for the several historic lighthouses and shipwrecks that dominate the coastline. Continue to read on for more information about the Outer Banks!</p>
+		<img src="scripts/images/whereis.png" alt="Map" width="200">
+		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
+	</div>
+
+	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
+		<h3>Overview of the Outer Banks</h3>
+				<p>This video gives an overview of the Outer Banks and its points of interest, which include beaches, parks, lighthouses, and the Wright Brothers National Memorial.</p>
+		<iframe width="200" height="300" src="https://www.youtube.com/embed/Ozxp6d-j380" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	</div>
+
+	<div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
+		<h2>Lighthouses</h2>
+		<img src="scripts/images/lighthouse.jpg" alt="lighthouse" width="400">
+		<p>Up and down the Outer Banks, there are a multitude of lighthouses, which were once used to serve as a navigational aid to ships at sea. One lighthouse, Ocracoke, is the US's second oldest lighthouse and still in operation, and Cape Hatteras Lighthouse is the tallest lighthouse in the US. Here is a list of lighthouses from north to south, and clicking on the names will link to visitor information.</p>
+		<ul>
+			<li>
+				<a href="http://www.currituckbeachlight.com">Currituck Beach Lighthouse</a>
+			</li>
+			<li>
+				<a href="https://www.nps.gov/caha/planyourvisit/bils.htm">Bodie Island Lighthouse</a>
+			</li>
+			<li>
+				<a href="https://www.outerbanks.org/listing/the-roanoke-marshes-lighthouse/249/">Roanoke Marshes Lighthouse</a>
+			</li>
+			<li>
+				<a href="https://www.nps.gov/caha/planyourvisit/chls.htm">Cape Hatteras Lighthouse</a>
+			</li>
+			<li>
+				<a href="https://www.nps.gov/caha/planyourvisit/ols.htm">Ocracoke Lighthouse</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="easing_wrapper" data-0="display:none;" data-3900="display:block;" data-4900="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-10000="top:0%;" data-12000="top:-100%;">
+		<div id="easing" data-3900="left:100%" data-4600="left:25%;">
+			<h2>Wright Brothers National Memorial</h2>
+			<p>The Wright Brothers National Memorial is a museum and memorial located in Kill Devil Hills. It commemorates the first successful airplane flight by the Wright brothers in 1903. The memorial is a successful tourist destination, with over 400,000 visitors each year.</p>
+			<img src="scripts/images/blackwhiteflight.gif" alt="firstflight2" width="200">
+			<img src="scripts/images/wrightmemorial.jpeg" alt="memorial" width="200">
+
+		</div>
+
+		<div class="drop" data-6500="left:15%;bottom:100%;" data-9500="bottom:0%;">first</div>
+		<div class="drop" data-6500="left:25%;bottom[quadratic]:100%;" data-9500="bottom:0%;">flight</div>
+		<div class="drop" data-6500="left:35%;bottom[cubic]:100%;" data-9500="bottom:0%;">orville</div>
+		<div class="drop" data-6500="left:45%;bottom[swing]:100%;" data-9500="bottom:0%;">wilbur</div>
+		<div class="drop" data-6500="left:55%;bottom[WTF]:100%;" data-9500="bottom:0%;">wright</div>
+		<div class="drop" data-6500="left:65%;bottom[inverted]:100%;" data-9500="bottom:0%;">kittyhawk</div>
+		<div class="drop" data-6500="left:75%;bottom[bounce]:100%;" data-9500="bottom:0%;">outerbanks</div>
+	</div>
+
+	<div id="download" data-10000="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-12000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
+		<h2>The beaches</h2>
+		<img src="scripts/images/sunset.jpg" alt="sunset" width="250">
+		<p>Perhaps the most popular attraction the Outer Banks offers is its beaches. They span the entire coastline, bordered by dunes towards land and the Atlantic Ocean. All of the beaches are public and free of businesses and boardwalks. There are a great amount of rental houses and hotels that have been built near the beach in recent years, making both getting to the beach and being able to spend it with family a breeze.</p>
+
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+	</div>
+
+	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+
+	<script data-main="scripts/main" src="scripts/require.js"></script>
+
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="dist/skrollr.ie.min.js"></script>
+	<![endif]-->
+</body>
+
+</html>
